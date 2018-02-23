@@ -1,0 +1,32 @@
+{
+  "name": "render-payment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "bin/test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "truffle-hdwallet-provider": "0.0.3",
+    "zeppelin-solidity": "1.7.0"
+  },
+  "devDependencies": {
+    "babel-node-modules": "0.0.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "ganache-cli": "^6.1.0-beta.2",
+    "solc": "^0.4.19",
+    "solidity-coverage": "^0.4.8",
+    "solium": "^1.1.5",
+    "truffle": "^4.0.5"
+  }
+}
